@@ -1,0 +1,53 @@
+{
+ "drawing": "Modules/SUMMING/M497C/MANUALS/1978 - M497C - Dual Master Module.pdf",
+ "page": 9,
+ "version": 1,
+ "trace": "_traces/2c7ffbadfe302791-p9.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1568, 2000],
+  "mm": [338.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "9", "pages": "28"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [39.5, 33.7, 338.5, 301.0],
+ "outlines": {
+  "line": {"rings": 104, "straight": {"n": 1069, "mm": 2805.4}, "curved": {"n": 127, "mm": 188.7}},
+  "text": {"rings": 128, "straight": {"n": 1000, "mm": 1131.0}, "curved": {"n": 267, "mm": 376.1}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 14,
+  "lines": [
+   {"mm": [284.6, 281.5, 295.4, 286.3], "text": "LEFT"},
+   {"mm": [283.0, 276.1, 296.4, 281.4], "text": "LEVEL"},
+   {"mm": [43.0, 270.7, 77.9, 276.0], "text": "SUMMING INPUT"},
+   {"mm": [147.5, 269.7, 156.5, 274.9], "text": "PRE"},
+   {"mm": [204.2, 271.8, 219.8, 277.1], "text": "INSERT"},
+   {"mm": [41.0, 241.8, 78.2, 248.3], "text": "EXTERNAL INPUT"},
+   {"mm": [45.1, 236.6, 80.1, 241.9], "text": "dBm 600 OHMS"},
+   {"mm": [283.5, 203.2, 296.4, 208.0], "text": "RIGHT"},
+   {"mm": [283.0, 197.8, 296.4, 203.3], "text": "LEVEL"},
+   {"mm": [41.9, 191.7, 77.7, 198.4], "text": "SUMMING INPUT"},
+   {"mm": [147.0, 191.3, 156.1, 196.6], "text": "PRE"},
+   {"mm": [203.6, 193.4, 219.8, 198.7], "text": "INSERT"},
+   {"mm": [40.8, 164.3, 77.5, 169.6], "text": "EXTERNAL INPUT"},
+   {"mm": [44.0, 158.5, 79.7, 163.7], "text": "dBm 600 OHMS"}
+  ]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 40–338 mm across, 34–301 mm up",
+  "- **Outlines:** line 104 rings, 1,069 straight (2,805 mm) / 127 curved (189 mm); text 128 rings, 1,000 straight (1,131 mm) / 267 curved (376 mm)",
+  "- **Words (OCR):** 14 in 14 lines: LEFT · LEVEL · SUMMING INPUT · PRE · INSERT · EXTERNAL INPUT · dBm 600 OHMS · RIGHT · LEVEL · SUMMING INPUT · PRE · INSERT"
+ ]
+}

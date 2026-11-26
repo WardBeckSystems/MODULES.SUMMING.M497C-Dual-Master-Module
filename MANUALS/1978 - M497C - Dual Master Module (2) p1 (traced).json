@@ -1,0 +1,56 @@
+{
+ "drawing": "Modules/SUMMING/M497C/MANUALS/1978 - M497C - Dual Master Module (2).pdf",
+ "page": 1,
+ "version": 1,
+ "trace": "_traces/1ecc4b6b18afe2ce-p1.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1568, 2000],
+  "mm": [338.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "1", "pages": "28"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [0.4, 0.0, 313.5, 425.3],
+ "outlines": {
+  "line": {"rings": 205, "straight": {"n": 2107, "mm": 5261.2}, "curved": {"n": 457, "mm": 748.1}},
+  "text": {"rings": 66, "straight": {"n": 556, "mm": 910.1}, "curved": {"n": 128, "mm": 217.9}}
+ },
+ "circles": [{"c": [219.7, 398.4], "r": 2.0, "kind": "circle", "span": 360, "from": ["outline (one edge)"]}],
+ "boxes": [],
+ "text": {
+  "words": 37,
+  "lines": [
+   {"mm": [122.6, 401.1, 157.4, 408.3], "text": "WARD"},
+   {"mm": [171.9, 401.1, 239.4, 408.3], "text": "ECK SYS TE"},
+   {"mm": [265.1, 401.1, 284.6, 408.3], "text": "LTD"},
+   {"mm": [46.2, 389.5, 288.2, 407.7], "text": "[VVE3S) 64 OGflE SS AV NUE. CA OllGH ON TA IO 1S14 38-elS~"},
+   {"mm": [122.6, 389.9, 127.6, 394.0], "text": "FIl"},
+   {"mm": [141.6, 389.9, 172.1, 394.0], "text": "5/4 38-3985"},
+   {"mm": [216.5, 389.9, 249.8, 394.0], "text": "TE l..EPHONeo"},
+   {"mm": [251.7, 389.5, 257.1, 394.3], "text": "41"},
+   {"mm": [158.3, 242.7, 183.5, 249.9], "text": "M497C"},
+   {"mm": [120.9, 227.1, 222.8, 234.3], "text": "DUAL MASTER MODULE"},
+   {"mm": [221.3, 69.5, 266.0, 74.1], "text": "MA NUAl SSm"},
+   {"mm": [281.3, 65.6, 302.5, 74.7], "text": "ps"},
+   {"mm": [269.7, 54.0, 291.7, 65.5], "text": "BS"},
+   {"mm": [225.2, 56.6, 256.9, 61.8], "text": "pri/19. H9"},
+   {"mm": [247.0, 31.3, 265.8, 38.5], "text": "tp"},
+   {"mm": [239.9, 24.2, 261.0, 31.4], "text": "ht"}
+  ]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 0–314 mm across, 0–425 mm up",
+  "- **Outlines:** line 205 rings, 2,107 straight (5,261 mm) / 457 curved (748 mm); text 66 rings, 556 straight (910 mm) / 128 curved (218 mm)",
+  "- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (219.7, 398.4)",
+  "- **Words (OCR):** 37 in 16 lines: WARD · ECK SYS TE · LTD · [VVE3S) 64 OGflE SS AV NUE. CA OllGH ON TA IO 1S14 38-elS~ · FIl · 5/4 38-3985 · TE l..EPHONeo · 41 · M497C · DUAL MASTER MODULE · MA NUAl SSm · ps"
+ ]
+}

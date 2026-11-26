@@ -1,0 +1,49 @@
+{
+ "drawing": "Modules/SUMMING/M497C/MANUALS/1978 - M497C - Dual Master Module (2).pdf",
+ "page": 16,
+ "version": 1,
+ "trace": "_traces/1ecc4b6b18afe2ce-p16.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1568, 2000],
+  "mm": [338.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "16", "pages": "28"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [5.2, 20.7, 313.7, 425.3],
+ "outlines": {
+  "line": {"rings": 58, "straight": {"n": 1078, "mm": 3345.9}, "curved": {"n": 164, "mm": 274.8}},
+  "text": {"rings": 19, "straight": {"n": 171, "mm": 227.9}, "curved": {"n": 39, "mm": 76.0}},
+  "tb": {"rings": 13, "straight": {"n": 129, "mm": 190.5}, "curved": {"n": 23, "mm": 41.9}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 10,
+  "lines": [
+   {"mm": [29.1, 405.2, 78.8, 410.8], "text": "WARD -BECK"},
+   {"mm": [89.2, 405.2, 142.3, 410.8], "text": "YSTEMS TD"},
+   {"mm": [154.2, 233.6, 177.9, 238.9], "text": "ECTI ON"},
+   {"mm": [281.3, 65.6, 302.5, 74.7], "text": "ps"},
+   {"mm": [269.7, 54.0, 291.7, 65.5], "text": "BS"},
+   {"mm": [247.0, 31.3, 265.8, 38.5], "text": "tp"},
+   {"mm": [239.9, 24.2, 261.0, 31.4], "text": "ht"}
+  ]
+ },
+ "title_block": {"mm": [22.3, 396.7, 85.7, 419.5], "from": "title-block words (training set)", "text": ["WARD -BECK"]},
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 5–314 mm across, 21–425 mm up",
+  "- **Outlines:** line 58 rings, 1,078 straight (3,346 mm) / 164 curved (275 mm); text 19 rings, 171 straight (228 mm) / 39 curved (76.0 mm); tb 13 rings, 129 straight (190 mm) / 23 curved (41.9 mm)",
+  "- **Words (OCR):** 10 in 7 lines: WARD -BECK · YSTEMS TD · ECTI ON · ps · BS · tp · ht",
+  "- **Title block:** (22, 397)–(86, 420) mm: WARD -BECK"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "drawing": "Modules/SUMMING/M497C/MANUALS/1978 - M497C - Dual Master Module (2).pdf",
+ "page": 9,
+ "version": 1,
+ "trace": "_traces/1ecc4b6b18afe2ce-p9.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1568, 2000],
+  "mm": [338.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "9", "pages": "28"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [39.5, 19.0, 338.5, 301.0],
+ "outlines": {
+  "line": {"rings": 162, "straight": {"n": 1580, "mm": 3362.4}, "curved": {"n": 299, "mm": 463.0}},
+  "text": {"rings": 91, "straight": {"n": 674, "mm": 969.5}, "curved": {"n": 142, "mm": 201.4}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 27,
+  "lines": [
+   {"mm": [285.0, 282.0, 294.7, 285.6], "text": "LEFT"},
+   {"mm": [283.9, 276.8, 296.9, 281.1], "text": "LEVEL"},
+   {"mm": [204.9, 272.2, 219.6, 275.8], "text": "INSERT"},
+   {"mm": [43.6, 269.9, 77.1, 273.5], "text": "SUMMING INPUT"},
+   {"mm": [254.3, 269.9, 261.9, 273.0], "text": "'v\\A"},
+   {"mm": [41.7, 241.8, 77.1, 245.4], "text": "EXTERNAL INPUT"},
+   {"mm": [45.3, 236.2, 49.9, 239.8], "text": "d8"},
+   {"mm": [57.2, 236.2, 79.2, 239.8], "text": "600 OHMS"},
+   {"mm": [284.1, 203.8, 296.2, 207.4], "text": "RIGHT"},
+   {"mm": [284.1, 198.8, 296.6, 202.4], "text": "LEVEL"},
+   {"mm": [204.9, 194.1, 219.6, 197.7], "text": "INSERT"},
+   {"mm": [43.6, 191.7, 76.9, 195.3], "text": "SUMMING INPUT"},
+   {"mm": [334.6, 191.3, 338.5, 195.1], "text": "10"},
+   {"mm": [41.7, 163.7, 74.5, 167.3], "text": "EXTERN AL INPU"},
+   {"mm": [45.1, 158.0, 79.0, 161.6], "text": "d8m 60 OHMS"},
+   {"mm": [287.4, 59.6, 308.5, 68.7], "text": "ps"},
+   {"mm": [275.7, 48.1, 297.7, 59.7], "text": "BS"},
+   {"mm": [253.0, 25.5, 271.8, 32.7], "text": "tp"},
+   {"mm": [245.9, 18.1, 267.1, 25.3], "text": "ht"}
+  ]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 40–338 mm across, 19–301 mm up",
+  "- **Outlines:** line 162 rings, 1,580 straight (3,362 mm) / 299 curved (463 mm); text 91 rings, 674 straight (970 mm) / 142 curved (201 mm)",
+  "- **Words (OCR):** 27 in 19 lines: LEFT · LEVEL · INSERT · SUMMING INPUT · 'v\\A · EXTERNAL INPUT · d8 · 600 OHMS · RIGHT · LEVEL · INSERT · SUMMING INPUT"
+ ]
+}

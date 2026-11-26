@@ -1,0 +1,90 @@
+{
+ "drawing": "Modules/SUMMING/M497C/MANUALS/1978 - M497C - Dual Master Module (2).pdf",
+ "page": 13,
+ "version": 1,
+ "trace": "_traces/1ecc4b6b18afe2ce-p13.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1568, 2000],
+  "mm": [338.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "13", "pages": "28"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [0.0, 0.6, 319.7, 427.1],
+ "outlines": {
+  "line": {"rings": 107, "straight": {"n": 1068, "mm": 2592.7}, "curved": {"n": 204, "mm": 314.5}},
+  "text": {"rings": 145, "straight": {"n": 933, "mm": 1028.6}, "curved": {"n": 326, "mm": 489.2}},
+  "tb": {"rings": 146, "straight": {"n": 1685, "mm": 3613.9}, "curved": {"n": 365, "mm": 547.2}}
+ },
+ "circles": [
+  {"c": [234.1, 33.0], "r": 2.1, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [261.6, 41.4], "r": 2.1, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [222.2, 22.5], "r": 2.0, "kind": "circle", "span": 360, "from": ["outline (one edge)"]}
+ ],
+ "boxes": [],
+ "text": {
+  "words": 67,
+  "lines": [
+   {"mm": [135.8, 310.0, 144.4, 313.6], "text": "WBS"},
+   {"mm": [157.0, 310.0, 162.6, 313.6], "text": "M4"},
+   {"mm": [192.8, 263.4, 264.9, 271.3], "text": "---il Det ermi nes outpu level of aU"},
+   {"mm": [207.9, 268.6, 246.6, 272.2], "text": "RIGHT CHANNEL level"},
+   {"mm": [249.1, 268.8, 271.8, 272.2], "text": "control R4..:"},
+   {"mm": [208.1, 260.6, 247.0, 263.9], "text": "Right Channel output"},
+   {"mm": [34.3, 238.1, 93.5, 241.5], "text": "Spac fo ch annel identi fic ati on"},
+   {"mm": [34.5, 233.8, 55.7, 237.2], "text": "designation."},
+   {"mm": [208.8, 185.9, 268.8, 189.5], "text": "L£n Ct-W-/NEl level ontr ol R42"},
+   {"mm": [208.8, 181.8, 264.7, 185.1], "text": "Determi nes ou tpu level of all"},
+   {"mm": [208.8, 177.7, 247.0, 181.0], "text": "Left Channel outp uts"},
+   {"mm": [35.4, 155.0, 94.8, 158.4], "text": "Space fo ch onnel identification"},
+   {"mm": [133.9, 153.9, 174.7, 160.9], "text": "r;=======;]11"},
+   {"mm": [35.4, 150.7, 56.8, 154.3], "text": "designat ion."},
+   {"mm": [287.4, 59.6, 308.5, 68.7], "text": "ps"},
+   {"mm": [187.4, 56.1, 300.5, 64.1], "text": "(was] WARD-BECK SYSTEMS"},
+   {"mm": [275.7, 48.1, 297.7, 59.7], "text": "BS"},
+   {"mm": [234.5, 45.8, 252.6, 50.8], "text": "M4e7C"},
+   {"mm": [210.9, 37.6, 276.8, 42.4], "text": "DUAL MASTER MODULE"},
+   {"mm": [224.3, 29.6, 262.8, 34.4], "text": "FRONT PANEL"},
+   {"mm": [253.0, 25.5, 271.8, 32.7], "text": "tp"},
+   {"mm": [194.5, 18.8, 226.5, 23.8], "text": "4e7-04·0011"},
+   {"mm": [245.9, 18.1, 267.1, 25.3], "text": "ht"},
+   {"mm": [283.7, 20.1, 293.8, 24.9], "text": "ISS."}
+  ]
+ },
+ "title_block": {
+  "mm": [129.0, 48.3, 307.2, 322.4],
+  "from": "title-block words (training set)",
+  "text": [
+   "WBS",
+   "M4",
+   "---il Det ermi nes outpu level of aU",
+   "RIGHT CHANNEL level",
+   "control R4..:",
+   "Right Channel output",
+   "L£n Ct-W-/NEl level ontr ol R42",
+   "Determi nes ou tpu level of all",
+   "Left Channel outp uts",
+   "r;=======;]11",
+   "ps",
+   "(was] WARD-BECK SYSTEMS",
+   "BS",
+   "M4e7C"
+  ]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 0–320 mm across, 1–427 mm up",
+  "- **Outlines:** line 107 rings, 1,068 straight (2,593 mm) / 204 curved (314 mm); text 145 rings, 933 straight (1,029 mm) / 326 curved (489 mm); tb 146 rings, 1,685 straight (3,614 mm) / 365 curved (547 mm)",
+  "- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (234.1, 33.0), r 2.1 @ (261.6, 41.4), r 2.0 @ (222.2, 22.5)",
+  "- **Words (OCR):** 67 in 24 lines: WBS · M4 · ---il Det ermi nes outpu level of aU · RIGHT CHANNEL level · control R4..: · Right Channel output · Spac fo ch annel identi fic ati on · designation. · L£n Ct-W-/NEl level ontr ol R42 · Determi nes ou tpu level of all · Left Channel outp uts · Space fo ch onnel identification",
+  "- **Title block:** (129, 48)–(307, 322) mm: WBS · M4 · ---il Det ermi nes outpu level of aU · RIGHT CHANNEL level · control R4..: · Right Channel output · L£n Ct-W-/NEl level ontr ol R42 · Determi nes ou tpu level of all · Left Channel outp uts"
+ ]
+}

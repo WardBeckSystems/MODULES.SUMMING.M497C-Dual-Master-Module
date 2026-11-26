@@ -1,0 +1,42 @@
+{
+ "drawing": "Modules/SUMMING/M497C/MANUALS/1978 - M497C - Dual Master Module.pdf",
+ "page": 16,
+ "version": 1,
+ "trace": "_traces/2c7ffbadfe302791-p16.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1568, 2000],
+  "mm": [338.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "16", "pages": "28"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [5.2, 20.7, 304.4, 425.3],
+ "outlines": {
+  "line": {"rings": 23, "straight": {"n": 652, "mm": 2670.2}, "curved": {"n": 64, "mm": 100.5}},
+  "text": {"rings": 50, "straight": {"n": 547, "mm": 714.3}, "curved": {"n": 118, "mm": 203.6}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 3,
+  "lines": [
+   {"mm": [28.5, 404.8, 143.4, 413.0], "text": "WARD-BECK SYSTEMS LTD"},
+   {"mm": [149.0, 233.6, 187.2, 240.6], "text": "SECTION I"},
+   {"mm": [143.6, 221.9, 192.2, 228.4], "text": "SUBASSEMBLY"}
+  ]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 5–304 mm across, 21–425 mm up",
+  "- **Outlines:** line 23 rings, 652 straight (2,670 mm) / 64 curved (100 mm); text 50 rings, 547 straight (714 mm) / 118 curved (204 mm)",
+  "- **Words (OCR):** 3 in 3 lines: WARD-BECK SYSTEMS LTD · SECTION I · SUBASSEMBLY"
+ ]
+}

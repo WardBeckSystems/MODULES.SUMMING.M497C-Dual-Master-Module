@@ -1,0 +1,64 @@
+{
+ "drawing": "Modules/SUMMING/M497C/MANUALS/1978 - M497C - Dual Master Module.pdf",
+ "page": 1,
+ "version": 1,
+ "trace": "_traces/2c7ffbadfe302791-p1.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1568, 2000],
+  "mm": [338.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "1", "pages": "28"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [0.4, 0.0, 307.2, 425.3],
+ "outlines": {
+  "line": {"rings": 28, "straight": {"n": 510, "mm": 3124.7}, "curved": {"n": 37, "mm": 56.7}},
+  "text": {"rings": 204, "straight": {"n": 1913, "mm": 2619.0}, "curved": {"n": 489, "mm": 803.2}},
+  "tb": {"rings": 1, "straight": {"n": 1, "mm": 0.7}, "curved": {"n": 3, "mm": 3.9}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 14,
+  "lines": [
+   {"mm": [121.8, 400.7, 285.9, 410.5], "text": "WARD-BECK SYSTEMS LTD"},
+   {"mm": [54.0, 392.5, 287.8, 407.1], "text": "WBS 841 ProGRESS AVENUE SCAABOROUGH, ONTAAIO M1h 2x4"},
+   {"mm": [121.1, 390.6, 172.9, 396.1], "text": "FAX: 416/430-3865"},
+   {"mm": [215.0, 390.6, 288.4, 396.1], "text": "TELEPHONE: 418/438-6550"},
+   {"mm": [157.2, 242.7, 185.7, 252.3], "text": "M497C"},
+   {"mm": [119.2, 227.1, 223.9, 236.6], "text": "DUAL MASTER MODULE"},
+   {"mm": [220.2, 68.7, 281.1, 76.1], "text": "MANUAL ISSUE #2"},
+   {"mm": [219.8, 55.9, 260.6, 64.1], "text": "April 29, 199["},
+   {"mm": [45.6, 12.1, 96.1, 19.3], "text": "Mw8900s /M497C.WP"}
+  ]
+ },
+ "title_block": {
+  "mm": [47.2, 59.9, 287.9, 419.1],
+  "from": "title-block words (training set)",
+  "text": [
+   "WARD-BECK SYSTEMS LTD",
+   "WBS 841 ProGRESS AVENUE SCAABOROUGH, ONTAAIO M1h 2x4",
+   "FAX: 416/430-3865",
+   "TELEPHONE: 418/438-6550",
+   "M497C",
+   "DUAL MASTER MODULE",
+   "MANUAL ISSUE #2",
+   "April 29, 199["
+  ]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 0–307 mm across, 0–425 mm up",
+  "- **Outlines:** line 28 rings, 510 straight (3,125 mm) / 37 curved (56.7 mm); text 204 rings, 1,913 straight (2,619 mm) / 489 curved (803 mm); tb 1 rings, 1 straight (0.7 mm) / 3 curved (3.9 mm)",
+  "- **Words (OCR):** 14 in 9 lines: WARD-BECK SYSTEMS LTD · WBS 841 ProGRESS AVENUE SCAABOROUGH, ONTAAIO M1h 2x4 · FAX: 416/430-3865 · TELEPHONE: 418/438-6550 · M497C · DUAL MASTER MODULE · MANUAL ISSUE #2 · April 29, 199[ · Mw8900s /M497C.WP",
+  "- **Title block:** (47, 60)–(288, 419) mm: WARD-BECK SYSTEMS LTD · WBS 841 ProGRESS AVENUE SCAABOROUGH, ONTAAIO M1h 2x4 · FAX: 416/430-3865 · TELEPHONE: 418/438-6550 · M497C · DUAL MASTER MODULE · MANUAL ISSUE #2 · April 29, 199["
+ ]
+}
