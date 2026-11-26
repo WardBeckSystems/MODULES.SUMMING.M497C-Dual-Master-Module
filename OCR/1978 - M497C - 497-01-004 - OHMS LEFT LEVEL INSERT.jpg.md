@@ -21,7 +21,7 @@ Wiki page: [M497C](../../../../PAGES/M497C.md)
 - **Words (OCR):** 15 in 15 lines: LEFT · LEVEL · SUMMING INPUT · PRE · INSERT · EXTERNAL INPUT · dBm · 600 OHMS · RIGHT · LEvEL · SUMMING INPUT · INSERT
 - **Wiring (first pass):** 68 connected wire groups from 97 runs; labelled ends: 68 mm → PRE; 37 mm → dBm 600 OHMS; 34 mm → LEvEL; 34 mm → LEVEL; 29 mm → 600 OHMS
 
-Every curve, box, word and wire group: [1978 - M497C - 497-01-004 - OHMS LEFT LEVEL INSERT (traced).json](../SCHEMATICS/1978%20-%20M497C%20-%20497-01-004%20-%20OHMS%20LEFT%20LEVEL%20INSERT%20(traced).json) (the CAD file: `1978 - M497C - 497-01-004 - OHMS LEFT LEVEL INSERT (traced).dxf`).
+Every curve, box, word and wire group: [1978 - M497C - 497-01-004 - OHMS LEFT LEVEL INSERT (traced).json](../SCHEMATICS/1978%20-%20M497C%20-%20497-01-004%20-%20OHMS%20LEFT%20LEVEL%20INSERT%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-01-004 - OHMS LEFT LEVEL INSERT (traced).dxf`).
 
 ## Full text
 

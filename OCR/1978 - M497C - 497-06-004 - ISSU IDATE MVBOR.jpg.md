@@ -22,7 +22,7 @@ Wiki page: [M497C](../../../../PAGES/M497C.md)
 - **Words (OCR):** 64 in 58 lines: LR7E · ~cs230/6 · 339/6 (29 · Riijs · ~C626 · R22 920 R28-420 · Zp · ~Ci842p · 24 · Rig · 25 · Z6
 - **Title block:** (71, 16)–(241, 158) mm: WBS · CANADA · 7-113 · Pn3ska · Qi · WBS · Drn: 03 · 06., PA · CKD
 
-Every curve, box, word and wire group: [1978 - M497C - 497-06-004 - ISSU IDATE MVBOR (traced).json](../SCHEMATICS/1978%20-%20M497C%20-%20497-06-004%20-%20ISSU%20IDATE%20MVBOR%20(traced).json) (the CAD file: `1978 - M497C - 497-06-004 - ISSU IDATE MVBOR (traced).dxf`).
+Every curve, box, word and wire group: [1978 - M497C - 497-06-004 - ISSU IDATE MVBOR (traced).json](../SCHEMATICS/1978%20-%20M497C%20-%20497-06-004%20-%20ISSU%20IDATE%20MVBOR%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-06-004 - ISSU IDATE MVBOR (traced).dxf`).
 
 ## Full text
 

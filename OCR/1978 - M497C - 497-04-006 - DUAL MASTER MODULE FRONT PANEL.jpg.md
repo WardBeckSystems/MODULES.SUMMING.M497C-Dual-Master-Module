@@ -19,7 +19,7 @@ Wiki page: [M497C](../../../../PAGES/M497C.md)
 - **Words (OCR):** 36 in 32 lines: WBS · M497C · RIGHT CHANNEL · level   control R44: · Determinos · output · evei · Right · Channoi  outputs_ · Space · for · channal   identification
 - **Title block:** (128, 48)–(309, 324) mm: WBS · M497C · RIGHT CHANNEL · level   control R44: · Determinos · output · evei · Right · Channoi  outputs_ · LEFT CHANNEL leval · control · R42: · Determines output level · Left Channel · outputs_ · 
 
-Every curve, box, word and wire group: [1978 - M497C - 497-04-006 - DUAL MASTER MODULE FRONT PANEL (traced).json](../MECHANICAL/1978%20-%20M497C%20-%20497-04-006%20-%20DUAL%20MASTER%20MODULE%20FRONT%20PANEL%20(traced).json) (the CAD file: `1978 - M497C - 497-04-006 - DUAL MASTER MODULE FRONT PANEL (traced).dxf`).
+Every curve, box, word and wire group: [1978 - M497C - 497-04-006 - DUAL MASTER MODULE FRONT PANEL (traced).json](../MECHANICAL/1978%20-%20M497C%20-%20497-04-006%20-%20DUAL%20MASTER%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-04-006 - DUAL MASTER MODULE FRONT PANEL (traced).dxf`).
 
 ## Full text
 

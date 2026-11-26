@@ -23,7 +23,7 @@ Wiki page: [M497C](../../../../PAGES/M497C.md)
 - **Title block:** (218, 10)–(263, 53) mm: WBS · ENG: PA · CKD: · scu
 - **Wiring (first pass):** 73 connected wire groups from 291 runs; labelled ends: 348 mm → WBS; 161 mm → R45; 142 mm → 2E61; 105 mm → R48, 30, RSO, RSiARek; 95 mm → R5B
 
-Every curve, box, word and wire group: [1978 - M497C - 497-02-003 - NOT USD SHORT PINS IIM TOGETER LEFT OUTPUTS (traced).json](../SCHEMATICS/1978%20-%20M497C%20-%20497-02-003%20-%20NOT%20USD%20SHORT%20PINS%20IIM%20TOGETER%20LEFT%20OUTPUTS%20(traced).json) (the CAD file: `1978 - M497C - 497-02-003 - NOT USD SHORT PINS IIM TOGETER LEFT OUTPUTS (traced).dxf`).
+Every curve, box, word and wire group: [1978 - M497C - 497-02-003 - NOT USD SHORT PINS IIM TOGETER LEFT OUTPUTS (traced).json](../SCHEMATICS/1978%20-%20M497C%20-%20497-02-003%20-%20NOT%20USD%20SHORT%20PINS%20IIM%20TOGETER%20LEFT%20OUTPUTS%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-02-003 - NOT USD SHORT PINS IIM TOGETER LEFT OUTPUTS (traced).dxf`).
 
 ## Full text
 

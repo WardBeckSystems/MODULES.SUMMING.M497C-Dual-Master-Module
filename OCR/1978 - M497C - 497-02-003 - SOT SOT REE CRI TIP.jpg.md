@@ -21,7 +21,7 @@ Wiki page: [M497C](../../../../PAGES/M497C.md)
 - **Words (OCR):** 128 in 126 lines: 620 · 2p · INSERT · Oabn · Suhming · 330/6 · C22 · R76 · R3s · ss/i0 · Rs · Ri7
 - **Wiring (first pass):** 100 connected wire groups from 666 runs; labelled ends: 310 mm → C2), 22/15, (25, C27; 181 mm → Rio, Ra, IIk, Cii_; 167 mm → rx, Riz, ciz, Lsoi; 159 mm → Rze, Lsoi, RZ4, Iooe; 158 mm → C22, ss/i0, '12p, R25
 
-Every curve, box, word and wire group: [1978 - M497C - 497-02-003 - SOT SOT REE CRI TIP (traced).json](../SCHEMATICS/1978%20-%20M497C%20-%20497-02-003%20-%20SOT%20SOT%20REE%20CRI%20TIP%20(traced).json) (the CAD file: `1978 - M497C - 497-02-003 - SOT SOT REE CRI TIP (traced).dxf`).
+Every curve, box, word and wire group: [1978 - M497C - 497-02-003 - SOT SOT REE CRI TIP (traced).json](../SCHEMATICS/1978%20-%20M497C%20-%20497-02-003%20-%20SOT%20SOT%20REE%20CRI%20TIP%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-02-003 - SOT SOT REE CRI TIP (traced).dxf`).
 
 ## Full text
 
