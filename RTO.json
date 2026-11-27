@@ -3,280 +3,957 @@
  "connector": "RTO-144",
  "type": "M497C - Dual Master Module",
  "series": null,
- "contacts": "1 contacts (J1), 21 contacts (P2)",
+ "connectors": [
+  {
+   "name": "P1",
+   "kind": "edge",
+   "contacts": 44,
+   "rows": "A-Z (no G, I, O, Q) opposite 1-22",
+   "view": "rear",
+   "part": null
+  }
+ ],
  "verified": null,
- "derived": false,
- "variant_of": null,
+ "built_from": {
+  "pictures": [
+   "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+  ],
+  "sheet": "Engineering/RTO-144/M497C/M497C.rto144.json",
+  "sheet_agrees": "27 of 27"
+ },
  "pins": [
   {
+   "connector": "P1",
    "pin": "1",
-   "signal": "",
-   "kind": "unread",
-   "pair": null,
-   "polarity": null,
-   "confidence": "low",
-   "read_from": "schematic",
-   "file": "Modules/SUMMING/M497C/SCHEMATICS/1978 - M497C - 497-02-003.jpg",
-   "page": 1
-  },
-  {
-   "pin": "1",
+   "ref": "1",
+   "also": "A",
+   "same_row": null,
    "signal": "LEFT SUM IN",
    "kind": "in",
-   "pair": "A1",
-   "polarity": "+",
+   "port": "SUM IN",
+   "polarity": "L",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Left Sum IN +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "2",
+   "ref": "2",
+   "also": "B",
+   "same_row": null,
    "signal": "RIGHT SUM IN",
    "kind": "in",
-   "pair": "A2",
-   "polarity": "+",
+   "port": "SUM IN",
+   "polarity": "R",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Right SUM in +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "3",
+   "ref": "3",
+   "also": "C",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "4",
-   "signal": "LEFT LINE IN",
+   "ref": "4",
+   "also": "D",
+   "same_row": null,
+   "signal": "LEFT EXT IN",
    "kind": "in",
-   "pair": "B1",
-   "polarity": "+",
+   "port": "EXT IN",
+   "polarity": "L",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Left Line IN +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "5",
-   "signal": "RIGHT LINE IN",
+   "ref": "5",
+   "also": "E",
+   "same_row": null,
+   "signal": "RIGHT EXT IN",
    "kind": "in",
-   "pair": "B2",
-   "polarity": "+",
+   "port": "EXT IN",
+   "polarity": "R",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Right Line in +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "6",
+   "ref": "6",
+   "also": "F",
+   "same_row": null,
+   "signal": "LEFT PRE OUT",
+   "kind": "out",
+   "port": "PRE OUT",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.8.6",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "7",
+   "ref": "7",
+   "also": "H",
+   "same_row": null,
+   "signal": "RIGHT PRE OUT",
+   "kind": "out",
+   "port": "PRE OUT",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.7.9",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "8",
+   "ref": "8",
+   "also": "J",
+   "same_row": null,
+   "signal": "LEFT LEV CTL IN",
+   "kind": "control_in",
+   "port": "LEV CTL IN",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.8.6",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "9",
+   "ref": "9",
+   "also": "K",
+   "same_row": null,
+   "signal": "RIGHT LEV CTL IN",
+   "kind": "control_in",
+   "port": "LEV CTL IN",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.7.9",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "10",
+   "ref": "10",
+   "also": "L",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "11",
+   "ref": "11",
+   "also": "M",
+   "same_row": null,
+   "signal": "MONO OUT",
+   "kind": "out",
+   "port": "MONO OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "12",
-   "signal": "OUT LEFT",
+   "ref": "12",
+   "also": "N",
+   "same_row": null,
+   "signal": "LEFT OUT 1",
    "kind": "out",
-   "pair": "A3",
-   "polarity": "+",
+   "port": "OUT 1",
+   "polarity": "L",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "OUT LEFT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "13",
+   "ref": "13",
+   "also": "P",
+   "same_row": null,
+   "signal": "LEFT OUT 2",
+   "kind": "out",
+   "port": "OUT 2",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "14",
-   "signal": "VU OUT LEFT",
+   "ref": "14",
+   "also": "R",
+   "same_row": null,
+   "signal": "LEFT MON OUT",
    "kind": "out",
-   "pair": "B3",
-   "polarity": "+",
+   "port": "MON OUT",
+   "polarity": "L",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VU OUT LEFT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "15",
-   "signal": "OUT RIGHT",
+   "ref": "15",
+   "also": "S",
+   "same_row": null,
+   "signal": "RIGHT OUT 1",
    "kind": "out",
-   "pair": "A4",
-   "polarity": "+",
+   "port": "OUT 1",
+   "polarity": "R",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "OUT RIGHT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "16",
+   "ref": "16",
+   "also": "T",
+   "same_row": null,
+   "signal": "RIGHT OUT 2",
+   "kind": "out",
+   "port": "OUT 2",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "17",
-   "signal": "VU OUT RIGHT",
+   "ref": "17",
+   "also": "U",
+   "same_row": null,
+   "signal": "RIGHT MON OUT",
    "kind": "out",
-   "pair": "B4",
-   "polarity": "+",
+   "port": "MON OUT",
+   "polarity": "R",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VU OUT RIGHT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "18",
+   "ref": "18",
+   "also": "V",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "19",
+   "ref": "19",
+   "also": "W",
+   "same_row": null,
    "signal": "-25 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VEE-AUDIO",
+    "kind": "power",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "20",
-   "signal": "COMMON",
+   "ref": "20",
+   "also": "X",
+   "same_row": null,
+   "signal": "25 V COMMON",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "GND",
+    "kind": "ground",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "21",
+   "ref": "21",
+   "also": "Y",
+   "same_row": null,
    "signal": "+25 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VCC-AUDIO",
+    "kind": "power",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "22",
+   "ref": "22",
+   "also": "Z",
+   "same_row": null,
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "A",
+   "ref": "A",
+   "also": "1",
+   "same_row": null,
    "signal": "LEFT SUM IN",
    "kind": "in",
-   "pair": "A1",
-   "polarity": "-",
+   "port": "SUM IN",
+   "polarity": "L",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Left Sum IN -",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "B",
+   "ref": "B",
+   "also": "2",
+   "same_row": null,
    "signal": "RIGHT SUM IN",
    "kind": "in",
-   "pair": "A2",
-   "polarity": "-",
+   "port": "SUM IN",
+   "polarity": "R",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Right SUM in -",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "C",
+   "ref": "C",
+   "also": "3",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "D",
-   "signal": "LEFT LINE IN",
+   "ref": "D",
+   "also": "4",
+   "same_row": null,
+   "signal": "LEFT EXT IN",
    "kind": "in",
-   "pair": "B1",
-   "polarity": "-",
+   "port": "EXT IN",
+   "polarity": "L",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Left Line IN -",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "E",
-   "signal": "RIGHT LINE IN",
+   "ref": "E",
+   "also": "5",
+   "same_row": null,
+   "signal": "RIGHT EXT IN",
    "kind": "in",
-   "pair": "B2",
-   "polarity": "-",
+   "port": "EXT IN",
+   "polarity": "R",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Right Line in -",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "F",
+   "ref": "F",
+   "also": "6",
+   "same_row": null,
+   "signal": "LEFT PRE OUT",
+   "kind": "out",
+   "port": "PRE OUT",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.F.J",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "H",
+   "ref": "H",
+   "also": "7",
+   "same_row": null,
+   "signal": "RIGHT PRE OUT",
+   "kind": "out",
+   "port": "PRE OUT",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.H.K",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "J",
+   "ref": "J",
+   "also": "8",
+   "same_row": null,
+   "signal": "LEFT LEV CTL IN",
+   "kind": "control_in",
+   "port": "LEV CTL IN",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.F.J",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "K",
+   "ref": "K",
+   "also": "9",
+   "same_row": null,
+   "signal": "RIGHT LEV CTL IN",
+   "kind": "control_in",
+   "port": "LEV CTL IN",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.H.K",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "L",
+   "ref": "L",
+   "also": "10",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "M",
+   "ref": "M",
+   "also": "11",
+   "same_row": null,
+   "signal": "MONO OUT",
+   "kind": "out",
+   "port": "MONO OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "N",
-   "signal": "OUT LEFT",
+   "ref": "N",
+   "also": "12",
+   "same_row": null,
+   "signal": "LEFT OUT 1",
    "kind": "out",
-   "pair": "A3",
-   "polarity": "-",
+   "port": "OUT 1",
+   "polarity": "L",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "OUT LEFT -",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "P",
+   "ref": "P",
+   "also": "13",
+   "same_row": null,
+   "signal": "LEFT OUT 2",
+   "kind": "out",
+   "port": "OUT 2",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "R",
-   "signal": "VU OUT LEFT",
+   "ref": "R",
+   "also": "14",
+   "same_row": null,
+   "signal": "LEFT MON OUT",
    "kind": "out",
-   "pair": "B3",
-   "polarity": "-",
+   "port": "MON OUT",
+   "polarity": "L",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VU OUT LEFT -",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "S",
-   "signal": "OUT RIGHT",
+   "ref": "S",
+   "also": "15",
+   "same_row": null,
+   "signal": "RIGHT OUT 1",
    "kind": "out",
-   "pair": "A4",
-   "polarity": "-",
+   "port": "OUT 1",
+   "polarity": "R",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "OUT RIGHT -",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
-   "pin": "U",
-   "signal": "VU OUT RIGHT",
+   "connector": "P1",
+   "pin": "T",
+   "ref": "T",
+   "also": "16",
+   "same_row": null,
+   "signal": "RIGHT OUT 2",
    "kind": "out",
-   "pair": "B4",
-   "polarity": "-",
+   "port": "OUT 2",
+   "polarity": "R",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M497C/M497C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "U",
+   "ref": "U",
+   "also": "17",
+   "same_row": null,
+   "signal": "RIGHT MON OUT",
+   "kind": "out",
+   "port": "MON OUT",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VU OUT RIGHT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "V",
+   "ref": "V",
+   "also": "18",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "W",
+   "ref": "W",
+   "also": "19",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "X",
+   "ref": "X",
+   "also": "20",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "Y",
+   "ref": "Y",
+   "also": "21",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "Z",
+   "ref": "Z",
+   "also": "22",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M497A/PINOUTS/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
   }
  ],
+ "ports": [
+  {
+   "name": "SUM IN",
+   "dir": "in",
+   "pins": {
+    "L": "P1-1",
+    "L/2": "P1-A",
+    "R": "P1-2",
+    "R/2": "P1-B"
+   }
+  },
+  {
+   "name": "EXT IN",
+   "dir": "in",
+   "pins": {
+    "L": "P1-4",
+    "L/2": "P1-D",
+    "R": "P1-5",
+    "R/2": "P1-E"
+   }
+  },
+  {
+   "name": "PRE OUT",
+   "dir": "out",
+   "pins": {
+    "L": "P1-6",
+    "L/2": "P1-F",
+    "R": "P1-7",
+    "R/2": "P1-H"
+   }
+  },
+  {
+   "name": "LEV CTL IN",
+   "dir": "control_in",
+   "pins": {
+    "L": "P1-8",
+    "L/2": "P1-J",
+    "R": "P1-9",
+    "R/2": "P1-K"
+   }
+  },
+  {
+   "name": "OUT 1",
+   "dir": "out",
+   "pins": {
+    "L": "P1-12",
+    "L/2": "P1-N",
+    "R": "P1-15",
+    "R/2": "P1-S"
+   }
+  },
+  {
+   "name": "OUT 2",
+   "dir": "out",
+   "pins": {
+    "L": "P1-13",
+    "L/2": "P1-P",
+    "R": "P1-16",
+    "R/2": "P1-T"
+   }
+  },
+  {
+   "name": "MON OUT",
+   "dir": "out",
+   "pins": {
+    "L": "P1-14",
+    "L/2": "P1-R",
+    "R": "P1-17",
+    "R/2": "P1-U"
+   }
+  },
+  {
+   "name": "MONO OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-M",
+    "b": "P1-11"
+   }
+  }
+ ],
+ "inserts": [],
  "straps": [
   {
-   "function": "Insert LEFT +",
-   "designation": "JMP.8.6",
-   "from": "P2-8",
-   "to": "P2-6"
+   "name": "JMP.8.6",
+   "pins": [
+    "P2-8",
+    "P2-6"
+   ],
+   "note": "Insert LEFT +",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "Insert LEFT -",
-   "designation": "JMP.F.J",
-   "from": "P2-J",
-   "to": "P2-F"
+   "name": "JMP.F.J",
+   "pins": [
+    "P2-J",
+    "P2-F"
+   ],
+   "note": "Insert LEFT -",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "Insert Right +",
-   "designation": "JMP.7.9",
-   "from": "P2-7",
-   "to": "P2-9"
+   "name": "JMP.7.9",
+   "pins": [
+    "P2-7",
+    "P2-9"
+   ],
+   "note": "Insert Right +",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "Insert Right -",
-   "designation": "JMP.H.K",
-   "from": "P2-H",
-   "to": "P2-K"
+   "name": "JMP.H.K",
+   "pins": [
+    "P2-H",
+    "P2-K"
+   ],
+   "note": "Insert Right -",
+   "from": "RTO-144 sheet"
   }
  ],
- "power": [
-  {
-   "rail": "VEE-AUDIO",
-   "style": "NEW",
-   "volts": -25,
-   "max_a": 0.2,
-   "supply": "P2-19",
-   "ground": "P2-20",
-   "link": 2
-  },
-  {
-   "rail": "VCC-AUDIO",
-   "style": "NEW",
-   "volts": 25,
-   "max_a": 0.2,
-   "supply": "P2-21",
-   "ground": "P2-20",
-   "link": 1
-  }
- ],
- "sources": [
-  "Engineering/RTO-144/M497C/M497C.rto144.json",
-  "Modules/SUMMING/M497C/SCHEMATICS/1978 - M497C - 497-02-003.jpg"
- ]
+ "conflicts": [],
+ "to_check": []
 }

@@ -77,32 +77,56 @@ Not on Google Drive yet: `M497C - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
-1 contacts (J1), 21 contacts (P2). Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 1 pinout picture (each its own `.pinout.json` beside it); the RTO-144 sheet agrees on 27 of 27 contacts. Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
-| Pin | Signal | Kind | Pair | Confidence |
+| Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
-| 1 |  | unread |  | low |
-| 1 | LEFT SUM IN | in | A1 + | high |
-| 2 | RIGHT SUM IN | in | A2 + | high |
-| 4 | LEFT LINE IN | in | B1 + | high |
-| 5 | RIGHT LINE IN | in | B2 + | high |
-| 12 | OUT LEFT | out | A3 + | high |
-| 14 | VU OUT LEFT | out | B3 + | high |
-| 15 | OUT RIGHT | out | A4 + | high |
-| 17 | VU OUT RIGHT | out | B4 + | high |
+| 1 | LEFT SUM IN | in | SUM IN L | high |
+| 2 | RIGHT SUM IN | in | SUM IN R | high |
+| 3 | SHIELD | shield | shield | high |
+| 4 | LEFT EXT IN | in | EXT IN L | high |
+| 5 | RIGHT EXT IN | in | EXT IN R | high |
+| 6 | LEFT PRE OUT | out | PRE OUT L | high |
+| 7 | RIGHT PRE OUT | out | PRE OUT R | high |
+| 8 | LEFT LEV CTL IN | control_in | LEV CTL IN L | high |
+| 9 | RIGHT LEV CTL IN | control_in | LEV CTL IN R | high |
+| 10 | SHIELD | shield | shield | high |
+| 11 | MONO OUT | out | MONO OUT | high |
+| 12 | LEFT OUT 1 | out | OUT 1 L | high |
+| 13 | LEFT OUT 2 | out | OUT 2 L | high |
+| 14 | LEFT MON OUT | out | MON OUT L | high |
+| 15 | RIGHT OUT 1 | out | OUT 1 R | high |
+| 16 | RIGHT OUT 2 | out | OUT 2 R | high |
+| 17 | RIGHT MON OUT | out | MON OUT R | high |
+| 18 | N/C | nc |  | high |
 | 19 | -25 V | power |  | high |
-| 20 | COMMON | ground |  | high |
+| 20 | 25 V COMMON | ground |  | high |
 | 21 | +25 V | power |  | high |
-| A | LEFT SUM IN | in | A1 - | high |
-| B | RIGHT SUM IN | in | A2 - | high |
-| D | LEFT LINE IN | in | B1 - | high |
-| E | RIGHT LINE IN | in | B2 - | high |
-| N | OUT LEFT | out | A3 - | high |
-| R | VU OUT LEFT | out | B3 - | high |
-| S | OUT RIGHT | out | A4 - | high |
-| U | VU OUT RIGHT | out | B4 - | high |
+| 22 | CHASSIS | ground |  | high |
+| A | LEFT SUM IN | in | SUM IN L | high |
+| B | RIGHT SUM IN | in | SUM IN R | high |
+| C | SHIELD | shield | shield | high |
+| D | LEFT EXT IN | in | EXT IN L | high |
+| E | RIGHT EXT IN | in | EXT IN R | high |
+| F | LEFT PRE OUT | out | PRE OUT L | high |
+| H | RIGHT PRE OUT | out | PRE OUT R | high |
+| J | LEFT LEV CTL IN | control_in | LEV CTL IN L | high |
+| K | RIGHT LEV CTL IN | control_in | LEV CTL IN R | high |
+| L | SHIELD | shield | shield | high |
+| M | MONO OUT | out | MONO OUT | high |
+| N | LEFT OUT 1 | out | OUT 1 L | high |
+| P | LEFT OUT 2 | out | OUT 2 L | high |
+| R | LEFT MON OUT | out | MON OUT L | high |
+| S | RIGHT OUT 1 | out | OUT 1 R | high |
+| T | RIGHT OUT 2 | out | OUT 2 R | high |
+| U | RIGHT MON OUT | out | MON OUT R | high |
+| V | N/C | nc |  | high |
+| W | N/C | nc |  | high |
+| X | N/C | nc |  | high |
+| Y | N/C | nc |  | high |
+| Z | N/C | nc |  | high |
 
-**Straps:** Insert LEFT +: JMP.8.6 · Insert LEFT -: JMP.F.J · Insert Right +: JMP.7.9 · Insert Right -: JMP.H.K
+**Straps:** JMP.8.6: P2-8 P2-6 · JMP.F.J: P2-J P2-F · JMP.7.9: P2-7 P2-9 · JMP.H.K: P2-H P2-K
 
 ## Manuals and documents
 
