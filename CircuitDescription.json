@@ -1,0 +1,19 @@
+{
+ "module": "M497C",
+ "source": {
+  "file": "MANUALS/1978 - M497C - P004 - 2-1.jpg",
+  "pages": [
+   1
+  ]
+ },
+ "ocr_quality": 0.95,
+ "read": "OCR of the manual's circuit description; check against the pages",
+ "sections": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "The M497C accommodates two separate signal channels It is designed to receive the mixed feeds from the left and right mixer buses console The two signals are independently processed and amplified standard line levels: The outputs of the M497C supply the main program outputs the console system Both channels operate similar manner. The following description refers specifically to thc LEFT channel, loss the input network and provides additional gain produce nominal line level of +8 dBm the output the module: ohm resistive dividing network inserted between the 8-109E and the IWo module outputs pins 12/N and [3/P Each of the two outputs has maximum drive capability of +24 dBm into bridging load_ Input A separate MONITOR output is provided_ designed feed the M495 STEREO MONITOR module as well as to drive standard VU meter The signal originating from the external mixing network enters the module pins 1/A and is applied to the summing current nodes of ZI and Z2. ZI through 23 with their associated components, providean actively balanced input well balanced output: The output operates at nominal level of 0 dBm and appears at pins 6/F Right ChanncLand MONQ Output The right channel of the M497 operates manner similar [0 the left channel a5 described above: For the MONO output, both channels are combined and appear at pins M/M The signal Icvcl of this output i5 such that; when connected the summing input of second M497, it will produce output of +8 dBm, with the left right channel of the first unit operating at +8 dBm_ Insert balanced INSERT point is provided between pins 6/F and 8/J_ permitting the insertion external cqualizer_ filter compressor_ either using M499 insert switcher Or by direct wiring: Level_Adjustment Power_Supply_Decoupling From the INSERT point; thc signal returned the module at pins 8/J and fed the 8-109E output amplifier via attenuator network: R42 level trim potentiometer permitting adjustment the module output level: small hole in thc module front panel allows access to the trim control. An active power supply decoupling network consisting of Q1 through provides isolation between the module and the +/-25 volt supply rails: Transistors Q3 and Q6 monitor the supply current: In the event of excessive power supply demands, such as from component failure or amplifier overdrive, the currcnt flowing through QI and Q4 will be limited. Outline Thc 8-109E output amplifier operates with gain dB. It recovers the"
+   ]
+  }
+ ]
+}
