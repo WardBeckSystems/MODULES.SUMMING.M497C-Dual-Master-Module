@@ -4,13 +4,11 @@ Ward-Beck Systems M497C, 1978|11. Wiki page: [M497C on WBSps.ca](https://wardbec
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 61 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 6 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 6 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 190 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 16 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 60 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 7 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 5 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 189 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 15 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 37 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -80,8 +78,6 @@ _Electrical drawings: schematics (-02-), functional diagrams (-01-), component l
 ## Pinouts
 
 _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and rear views, strapping), and the pinout / connections drawings made from them. The module root `RTO.json` lists every contact._
-
-Not on Google Drive yet: `M497C - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
@@ -169,7 +165,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1992 - M497C - DOC - 920477-01-001 - OHMS SWTCHED SSUE REMSION FUTURE FUTURE.kicad_sch](KICAD/1992%20-%20M497C%20-%20DOC%20-%20920477-01-001%20-%20OHMS%20SWTCHED%20SSUE%20REMSION%20FUTURE%20FUTURE.kicad_sch)
 - [2017 - M497C - DOC - 920170-01-001 - SWTCHED DIRECT MONITOR OUTPUTS DDZME.kicad_sch](KICAD/2017%20-%20M497C%20-%20DOC%20-%20920170-01-001%20-%20SWTCHED%20DIRECT%20MONITOR%20OUTPUTS%20DDZME.kicad_sch)
 - [M497C.kicad_sym](KICAD/M497C.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
