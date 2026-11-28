@@ -1,5 +1,5 @@
 # 1978 - M497C - 497-01-004 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM.jpg
-Wiki page: [M497C](../../../../PAGES/M497C.md)
+Wiki page: [M497C](../)
 
 
 - **Year:** 1978 (module estimate (family))

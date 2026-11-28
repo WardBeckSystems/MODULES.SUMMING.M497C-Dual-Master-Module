@@ -1,5 +1,5 @@
 # 1978 - M497C - 497-06-004 - ISSU IDATE MVBOR.jpg
-Wiki page: [M497C](../../../../PAGES/M497C.md)
+Wiki page: [M497C](../)
 
 
 - **Year:** 1978 (module estimate (family))
